@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1575325838462" clover="3.2.0">
-  <project timestamp="1575325838463" name="All files">
+<coverage generated="1575326327463" clover="3.2.0">
+  <project timestamp="1575326327463" name="All files">
     <metrics statements="19" coveredstatements="19" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9" elements="38" coveredelements="38" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
     <file name="types.js" path="/Users/dev/Alchemy/careerTrack/labs/TddWithJest/lib/types.js">
       <metrics statements="19" coveredstatements="19" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9"/>
@@ -9,7 +9,7 @@
       <line num="3" count="7" type="stmt"/>
       <line num="4" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="5" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="6" count="1" type="stmt"/>
+      <line num="6" count="8" type="stmt"/>
       <line num="8" count="1" type="stmt"/>
       <line num="9" count="6" type="cond" truecount="2" falsecount="0"/>
       <line num="10" count="5" type="stmt"/>

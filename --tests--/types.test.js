@@ -63,6 +63,13 @@ describe('validator module', () => {
     });
     it('properly tells if a value is a function', () => {
       expect(isFunction(() => {})).toBeTruthy();
+      expect(isFunction(function(){})).toBeTruthy();
+      expect(isFunction('hi')).toBeFalsy();
+      expect(isFunction(5)).toBeFalsy();
+      expect(isFunction("")).toBeFalsy();
+      expect(isFunction(true)).toBeFalsy();
+      expect(isFunction({})).toBeFalsy();
+      expect(isFunction([])).toBeFalsy();
     })
   });
 
