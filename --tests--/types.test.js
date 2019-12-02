@@ -3,6 +3,7 @@ const {
   isString,
   isBoolean,
   isArray,
+  isObject,
   castToNumber,
   getCaster
 } = require('../lib/types.js');
@@ -35,6 +36,7 @@ describe('validator module', () => {
       expect(isBoolean([])).toBeFalsy();
       expect(isBoolean(() => {})).toBeFalsy();
       expect(isBoolean(5)).toBeFalsy();
+      expect
     });
     it('properly tells if a value is an array', () => {
       expect(isArray([])).toBeTruthy();
@@ -45,6 +47,18 @@ describe('validator module', () => {
       expect(isArray("")).toBeFalsy();
       expect(isArray(true)).toBeFalsy();
       expect(isArray(() => {})).toBeFalsy();
+      expect(isArray((undefined))).toBeFalsy();
+    });
+    it('properly tells if a value is an object', () => {
+      expect(isObject({})).toBeTruthy();
+      expect(isObject({name: 'spot', age: 4 })).toBeTruthy();
+      expect(isObject([])).toBeFalsy();
+      expect(isObject(5)).toBeFalsy();
+      expect(isObject('')).toBeFalsy();
+      expect(isObject("")).toBeFalsy();
+      expect(isObject(true)).toBeFalsy();
+      expect(isObject(() => {})).toBeFalsy();
+      expect(isObject((undefined))).toBeFalsy();
     })
   });
 
