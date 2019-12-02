@@ -1,5 +1,6 @@
 const {
   isNumber,
+  isString,
   isBoolean,
   castToNumber,
   getCaster
@@ -15,6 +16,9 @@ describe('validator module', () => {
       expect(isNumber(() => {})).toBeFalsy();
       expect(isNumber(true)).toBeFalsy();
     });
+    it('properly tells if a value is a string', () => {
+      expect(isString('a string')).toBeTruthy();
+    })
     it('properly tells if a value is a boolean', () => {
       expect(isBoolean(true)).toBeTruthy();
       expect(isBoolean('hi')).toBeFalsy();
