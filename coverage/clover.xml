@@ -1,27 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1575325404797" clover="3.2.0">
-  <project timestamp="1575325404797" name="All files">
-    <metrics statements="18" coveredstatements="18" conditionals="10" coveredconditionals="10" methods="8" coveredmethods="8" elements="36" coveredelements="36" complexity="0" loc="18" ncloc="18" packages="1" files="1" classes="1"/>
+<coverage generated="1575325838462" clover="3.2.0">
+  <project timestamp="1575325838463" name="All files">
+    <metrics statements="19" coveredstatements="19" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9" elements="38" coveredelements="38" complexity="0" loc="19" ncloc="19" packages="1" files="1" classes="1"/>
     <file name="types.js" path="/Users/dev/Alchemy/careerTrack/labs/TddWithJest/lib/types.js">
-      <metrics statements="18" coveredstatements="18" conditionals="10" coveredconditionals="10" methods="8" coveredmethods="8"/>
+      <metrics statements="19" coveredstatements="19" conditionals="10" coveredconditionals="10" methods="9" coveredmethods="9"/>
       <line num="1" count="12" type="stmt"/>
       <line num="2" count="8" type="stmt"/>
       <line num="3" count="7" type="stmt"/>
       <line num="4" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="5" count="9" type="cond" truecount="2" falsecount="0"/>
-      <line num="7" count="1" type="stmt"/>
-      <line num="8" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="9" count="5" type="stmt"/>
-      <line num="10" count="5" type="cond" truecount="2" falsecount="0"/>
-      <line num="11" count="3" type="stmt"/>
-      <line num="16" count="2" type="stmt"/>
+      <line num="6" count="1" type="stmt"/>
+      <line num="8" count="1" type="stmt"/>
+      <line num="9" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="10" count="5" type="stmt"/>
+      <line num="11" count="5" type="cond" truecount="2" falsecount="0"/>
+      <line num="12" count="3" type="stmt"/>
       <line num="17" count="2" type="stmt"/>
       <line num="18" count="2" type="stmt"/>
       <line num="19" count="2" type="stmt"/>
-      <line num="23" count="1" type="stmt"/>
-      <line num="27" count="1" type="stmt"/>
-      <line num="28" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="31" count="1" type="stmt"/>
+      <line num="20" count="2" type="stmt"/>
+      <line num="24" count="1" type="stmt"/>
+      <line num="28" count="1" type="stmt"/>
+      <line num="29" count="2" type="cond" truecount="2" falsecount="0"/>
+      <line num="32" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
