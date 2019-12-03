@@ -116,6 +116,10 @@ describe('validator module', () => {
 
   it('can cast values to an array', () => {
     expect(castToArray(1,2,3)).toEqual([1, 2, 3]);
+    expect(castToArray()).toEqual([]);
+    expect(castToArray(1)).toEqual([1]);
+    expect(castToArray("one","two","three")).toEqual(["one","two","three"]);
+    expect(castToArray('')).toEqual(['']);
   })
 
   it('can get the right caster', () => {
